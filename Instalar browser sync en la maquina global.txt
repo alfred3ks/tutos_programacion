@@ -1,0 +1,43 @@
+﻿Instalación de browser-sync de manera global en el pc.
+
+
+Para instalar por la consola:
+
+
+npm install -g browser-sync y le damos enter
+
+
+Para arrancar browser sync:
+
+
+browser-sync start –server –file “css/* .css” y le damos enter
+
+
+Para arrancar usando un atajo:
+
+
+browser-sync start –server -w y le damos enter
+
+
+La -w que lea todos los archivos.
+
+
+Ahora sí tenemos dentro del proyecto un package.json podemos poner un script para que arranque npm:
+
+
+“dev”: “browser-sync start –server -w”
+
+
+Y en la consola ejecutamos:
+
+
+npm run dev y le damos enter.
+
+
+Si quieres más información al respecto debes dirigirte a la pagina de browser sync y ver la documentación:
+
+
+https://browser-sync.io
+
+
+Por: @alfred3ks
