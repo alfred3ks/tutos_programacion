@@ -231,6 +231,7 @@ Un paquete para vscode que analiza el package.json y lo compara con node_modules
 
 
 La extensión npm egamma
+https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script
 
 
 PACKAGE LOCK Y LOS SÍMBOLOS  ^ Y  ~
