@@ -1,0 +1,15 @@
+Cambiar de rama master a main un proyecto existente:
+
+    git branch -m master main
+
+Como cambiar la rama master a main de git instalado en el pc: Asi siempre inicias con main y no master:
+
+    git config --global init.defaultBranch main
+
+
+Eliminar repo local del repo remoto:
+
+    git remote -v -> chequeamos el repo
+    git remote remove origin
+
+Como cam
