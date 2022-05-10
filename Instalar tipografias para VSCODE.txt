@@ -1,0 +1,25 @@
+Instalar tipografias VSCODE
+
+Dos tipos de tipografias, Jetbrains y firacode.
+
+https://www.jetbrains.com/es-es/lp/mono/
+
+https://github.com/tonsky/FiraCode
+
+vamos a la web de firacode y jetbrains y bajamos los dos zip
+
+descomprimimos los zip y vamos a la carpeta en firacode otf seleccionamos todos los archivos y le damos instalar, igual pasa con jetbrain abrimos la carpeta ttf y seleccionamos todas y darle instalar listo!!!!
+
+ahora vamos a VScode
+
+ir a setting -> user -> Text editor -> font-family y seleccionamos:
+
+         FiraCode o
+         Jetbrain mono
+
+Ahora para las ligaduras:
+
+ir a setting -> en el buscador -> ligaduras y le damos a editar el setting.json y en la linea de editor.fontligaduras:true;
+listo ya lo tenemos todo configuardo.
+
+
